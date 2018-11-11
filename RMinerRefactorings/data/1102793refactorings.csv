@@ -1,0 +1,3 @@
+CommitId;RefactoringType;RefactoringDetail
+2801269c7e47bd6e243612654a74cee809d20959;Extract Method;Extract Method	private convertPemKeyPair(pemKeyPair PEMKeyPair) : KeyPair extracted from public loadKeys() : Iterable<KeyPair> in class org.crsh.auth.FilePublicKeyProvider
+2801269c7e47bd6e243612654a74cee809d20959;Parameterize Variable;Parameterize Variable	keyPair : PEMKeyPair to pemKeyPair : PEMKeyPair in method private convertPemKeyPair(pemKeyPair PEMKeyPair) : KeyPair in class org.crsh.auth.FilePublicKeyProvider

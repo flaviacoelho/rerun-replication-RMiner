@@ -1,0 +1,3 @@
+CommitId;RefactoringType;RefactoringDetail
+71820e573134be3fad3935035249cd77c4412f4e;Move Class;Move Class	tconstruct.library.modifiers.RecipeMatch moved to tconstruct.library.mantle.RecipeMatch
+71820e573134be3fad3935035249cd77c4412f4e;Move Method;Move Method	public addItem(oredictItem String, count int) : void from class tconstruct.library.modifiers.Modifier to public addItem(oredictItem String, amountNeeded int, amountMatched int) : void from class tconstruct.library.mantle.RecipeMatchRegistry

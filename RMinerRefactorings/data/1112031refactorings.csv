@@ -1,0 +1,5 @@
+CommitId;RefactoringType;RefactoringDetail
+718782014519034b28f6d3182fd9d340b7b31a74;Rename Parameter;Rename Parameter	server : DatagramSocketImpl to socket : DatagramSocketImpl in method package DatagramServerHandler(vertx VertxInternal, socket DatagramSocketImpl) in class io.vertx.core.datagram.impl.DatagramServerHandler
+718782014519034b28f6d3182fd9d340b7b31a74;Push Down Attribute;Push Down Attribute	protected connectionMap : Map<Channel,C> from class io.vertx.core.net.impl.VertxHandler to class io.vertx.core.http.impl.VertxHttpHandler
+718782014519034b28f6d3182fd9d340b7b31a74;Extract And Move Method;Extract And Move Method	protected getConnection(channel Channel) : C extracted from public channelWritabilityChanged(ctx ChannelHandlerContext) : void in class io.vertx.core.net.impl.VertxHandler & moved to class io.vertx.core.http.impl.VertxHttpHandler
+718782014519034b28f6d3182fd9d340b7b31a74;Extract And Move Method;Extract And Move Method	protected getConnection(channel Channel) : C extracted from public channelReadComplete(ctx ChannelHandlerContext) : void in class io.vertx.core.net.impl.VertxHandler & moved to class io.vertx.core.http.impl.VertxHttpHandler

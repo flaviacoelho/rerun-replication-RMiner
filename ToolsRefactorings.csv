@@ -1,0 +1,21 @@
+tool,refactoringType,TP,FP,FN,precision,recall
+RefDiff,Extract Method,45,3,4,"0,9375","0,918367346938775"
+RMiner,Extract Method,46,0,3,1,"0,938775510204082"
+RefDiff,Extract Superclass,2,0,0,1,1
+RMiner,Extract Superclass,2,0,0,1,1
+RefDiff,Move Class,44,0,1,1,"0,977777777777778"
+RMiner,Move Class,45,0,0,1,1
+RefDiff,Move Attribute,2,0,2,1,"0,5"
+RMiner,Move Attribute,4,0,0,1,1
+RefDiff,Pull Up Method,11,0,2,1,"0,846153846153846"
+RMiner,Pull Up Method,11,0,2,1,"0,846153846153846"
+RefDiff,Pull Up Attribute,2,0,0,1,1
+RMiner,Pull Up Attribute,2,0,0,1,1
+RefDiff,Push Down Attribute,1,0,0,1,1
+RMiner,Push Down Attribute,1,0,0,1,1
+RefDiff,Inline Method,5,0,0,1,1
+RMiner,Inline Method,5,0,0,1,1
+RefDiff,Rename Method,8,1,0,"0,888888888888889",1
+RMiner,Rename Method,7,0,1,1,"0,875"
+RefDiff,Rename Class,3,0,2,1,"0,6"
+RMiner,Rename Class,3,0,2,1,"0,6"

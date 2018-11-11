@@ -1,0 +1,3 @@
+CommitId;RefactoringType;RefactoringDetail
+f6212a7e474f812f31ddbce6d4f7a7a0d498b751;Extract Method;Extract Method	protected onRemoteStatusChanged(oldStatus InstanceInfo.InstanceStatus, newStatus InstanceInfo.InstanceStatus) : void extracted from private updateInstanceRemoteStatus() : void in class com.netflix.discovery.DiscoveryClient
+f6212a7e474f812f31ddbce6d4f7a7a0d498b751;Parameterize Variable;Parameterize Variable	currentRemoteInstanceStatus : InstanceInfo.InstanceStatus to newStatus : InstanceInfo.InstanceStatus in method protected onRemoteStatusChanged(oldStatus InstanceInfo.InstanceStatus, newStatus InstanceInfo.InstanceStatus) : void in class com.netflix.discovery.DiscoveryClient
